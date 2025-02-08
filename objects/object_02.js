@@ -32,4 +32,51 @@ const obj2={3:"c",4:"d"}
 
 //  using spred oprator
 const obj3={...obj1,...obj2}
-console.log(obj3);
+// console.log(obj3);
+
+
+const users =[
+    {
+        id: 1,
+        email:"hitesh @gmail.com",
+    },
+    {
+        id: 1,
+        email:"hitesh @gmail.com",
+    },
+    {
+        id: 1,
+        email:"hitesh @gmail.com",
+    },
+    {
+        id: 1,
+        email:"hitesh @gmail.com",
+    },
+    {
+        id: 1,
+        email:"hitesh @gmail.com",
+    },
+]
+// users[1].email;
+// console.log(instauser);
+// console.log(Object.keys(instauser));
+// console.log(Object.values(instauser));
+// console.log(Object.entries(instauser));
+
+// console.log(instauser.hasOwnProperty("islogedin"));            // use to check the key/vale is in object  or not
+
+
+
+
+//  destructure objects
+ const course ={
+    coursename:"c++ in gujrati",
+    prise:1000,
+    courseinstructure:"hitesh ambaliya"
+ }
+
+const {courseinstructure} = course
+ console.log(courseinstructure);
+const {courseinstructure:instructer} = course
+ console.log(instructer);
+ 
